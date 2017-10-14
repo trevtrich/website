@@ -90,6 +90,16 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
+                  title="Java"
+                >
+                  <i className="devicon-java-plain" data-wow-duration="2.0s" />
+                </div>
+              </div>
+              <div className="col-lg-3 col-6 ">
+                <div
+                  className="service-box"
+                  data-toggle="tooltip"
+                  data-placement="top"
                   title="C++"
                 >
                   <i
