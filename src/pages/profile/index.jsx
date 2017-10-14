@@ -16,7 +16,7 @@ class Profile extends React.Component {
           <div className="container">
             <img
               src={pathPrefix + '/img/profile.jpg'}
-              alt="jaxx2104"
+              alt="IntelXDesign"
               className="rounded-circle mx-auto d-block"
               width="120px"
             />
@@ -32,8 +32,34 @@ class Profile extends React.Component {
             </div>
           </div>
         </section>
-
-        <section id="features" className="bg-primary text-white text-center">
+        <section id="experience" className="bg-primary text-white">
+          <div className="container">
+            <div className="row align-items-center">
+              <div>
+                <h2 className="section-heading">EXPERIENCE</h2>
+                <h3>Gain Compliance</h3>
+                <p>
+                  Currently focussing on front-end work with a React-Redux stack
+                  and a Hapi.js server as our back-end for front-end leveraging
+                  REST-based HATEOAS patterns as much as possible. Deploying
+                  continuously using Travis CI into Google’s App Engine platform.
+                  Contributing to interface design and user experience of the
+                  product.
+                </p>
+                <h3>LevelView</h3>
+                <p>Designed, developed, and published iOS application in Swift as a utility application people can use for ensuring how "level" something is whether hanging photos on a wall or something similar.</p>
+                <h3>Source Allies</h3>
+                <p>
+                  Operated as software consultant and craftsman in an agile
+                  (scrum) environment. Leveraged a microservices architecture
+                  backed by technologies including Scala, Docker, Amazon Web
+                  Services, RESTful web services, FitNesse, and Jenkins.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="features" className="text-center">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -149,105 +175,18 @@ class Profile extends React.Component {
             </div>
           </div>
         </section>
-        {
-            //        <section id="features" className="text-center">
-            //          <div className="container">
-            //            <div className="row">
-            //              <div className="col-lg-12">
-            //                <h2 className="section-heading">Features</h2>
-            //                <hr className="border-primary" />
-            //              </div>
-            //            </div>
-            //          </div>
-            //          <div className="container">
-            //            <div className="row justify-content-md-center">
-            //              <div className="col-lg-8">
-            //                <p>
-            //                  学生時代のバイトでWEBエンジニアになりました。<br />
-            //                  主にフロントエンドを仕事にしていますが、バックエンドの開発もやってます。
-            //                  趣味はNode.jsを使ったIoTとアプリの開発です。
-            //                </p>
-            //              </div>
-            //            </div>
-            //          </div>
-            //        </section>
-        }
-        {
-            //            <section className="text-center" id="concept" >
-            //          <div className="container">
-            //            <div className="row">
-            //              <div className="col-lg-12">
-            //                <h2 className="section-heading">WORK</h2>
-            //                <hr className="border-primary" />
-            //              </div>
-            //            </div>
-            //          </div>
-            //          <div className="container">
-            //            <div className="row">
-            //              <div
-            //                className="col-md-6 wow slideInLeft"
-            //                data-wow-duration="1.0s"
-            //              >
-            //                <img
-            //                  src={pathPrefix + '/img/work1.png'}
-            //                  alt="work1"
-            //                  className="rounded-circle mx-auto"
-            //                />
-            //                <p>Yomu</p>
-            //              </div>
-            //              <div
-            //                className="col-md-6 wow slideInRight"
-            //                data-wow-duration="1.0s"
-            //              >
-            //                <img
-            //                  src={pathPrefix + '/img/work2.png'}
-            //                  alt="work2"
-            //                  className="rounded-circle mx-auto"
-            //                />
-            //                <p>Detector</p>
-            //              </div>
-            //            </div>
-            //          </div>
-            //        </section>
-        }
-        {
-            //        <section id="repos">
-            //          <div className="container">
-            //            <div className="row align-items-center">
-            //              <div className="col-md-6 text-center">
-            //                <h2 className="section-heading">Repositories</h2>
-            //              </div>
-            //              <div className="col-md-6 text-left">
-            //                <li>
-            //                  <a href="https://github.com/jaxx2104/gatsby-starter-bootstrap">
-            //                    gatstrap
-            //                  </a>
-            //                </li>
-            //                <li>
-            //                  <a href="https://github.com/jaxx2104/gulp-sample">
-            //                    gulp-sample
-            //                  </a>
-            //                </li>
-            //                <li>
-            //                  <a href="https://github.com/jaxx2104/irm">irm</a>
-            //                </li>
-            //                <li>
-            //                  <a href="https://github.com/jaxx2104/mt-dataapi-php">
-            //                    mt-dataapi-php
-            //                  </a>
-            //                </li>
-            //              </div>
-            //            </div>
-            //          </div>
-            //        </section>
-        }
-        <section id="education">
+        <section id="education" className="bg-primary text-white">
           <div className="container">
             <div className="row align-items-center">
               <div>
                 <h2 className="section-heading">Education</h2>
-                <p>B.S. Mechanical Engineering, Iowa State University, 3.72 GPA</p>
-                <p>M.S. Co-Major Human Computer Interaction & Computer Engineering, Iowa State University, 3.94 GPA</p>
+                <p>
+                  M.S. Co-Major Human Computer Interaction & Computer
+                  Engineering, Iowa State University, 3.94 GPA
+                </p>
+                <p>
+                  B.S. Mechanical Engineering, Iowa State University, 3.72 GPA
+                </p>
               </div>
             </div>
           </div>
