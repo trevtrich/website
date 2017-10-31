@@ -23,6 +23,7 @@
     "gatsby-transformer-remark": "^1.7.7",
     "gatsby-transformer-sharp": "^1.6.5",
     "lodash": "^4.17.4",
+    "plop": "1.9.0",
     "react-lazyload": "^2.2.7",
     "react-responsive-grid": "^0.3.4",
     "react-tap-event-plugin": "^2.0.1",
@@ -88,6 +89,7 @@
     "lint:text": "textlint src/pages/**/index.md",
     "lint:textfix": "textlint --fix src/pages/**/index.md",
     "precommit": "lint-staged",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "plop --plopfile ./generators/plopfile.js"
   }
 }

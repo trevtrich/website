@@ -1,0 +1,10 @@
+---
+title: {{title}}
+date: "{{createdDate}}"
+path: "/articles/{{kebabCase title}}"
+{{tags}}
+description: "{{description}}"
+---
+
+DRAFT
+
