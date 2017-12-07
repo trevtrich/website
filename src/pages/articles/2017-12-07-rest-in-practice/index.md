@@ -7,7 +7,7 @@ categories:
   - REVIEW
 description: "REST in Practice is one of the better tech books I&#x27;ve read. It was a nice mix of implementation and theory, of which I haven&#x27;t seen done this well very often."
 ---
-I was pointed to this book after a breif RFC from a friend wondering if anyone had recommendations for books on REST that weren't just theory. Most suggested you need to learn by doing, which I agree with for the most part, but I also feel some theory is important to understand the big picture. This book was a perfect mix of both.
+I was pointed to this book after a brief RFC from a friend wondering if anyone had recommendations for books on REST that weren't just theory. Most suggested you need to learn by doing, which I agree with for the most part, but I also feel some theory is important to understand the big picture. This book was a perfect mix of both.
 
 The continuing app that is being built in the book is one of a coffee shop and the API (the baristas / servers / cashiers) it would take to run the place  The book instills the [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html) from beginning to end, building up the coffee shop app with the different levels as a way to explain the benefits / tradeoffs of each level.
 
