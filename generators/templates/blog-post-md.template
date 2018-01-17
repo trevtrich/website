@@ -1,6 +1,7 @@
 ---
 title: {{title}}
 date: "{{createdDate}}"
+layout: post
 path: "/articles/{{kebabCase title}}"
 {{tags}}
 description: "{{description}}"
