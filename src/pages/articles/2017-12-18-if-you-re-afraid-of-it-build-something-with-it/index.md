@@ -1,6 +1,7 @@
 ---
 title: If you&#x27;re afraid of it, build something with it
 date: "2017-12-18"
+layout: post
 path: "/articles/if-you-re-afraid-of-it-build-something-with-it"
 categories:
   - development

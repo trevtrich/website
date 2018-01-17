@@ -1,6 +1,7 @@
 ---
 title: restful web services
 date: "2018-01-12"
+layout: post
 path: "/articles/restful-web-services"
 categories:
   - REVIEW
