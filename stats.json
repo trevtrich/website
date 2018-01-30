@@ -40,13 +40,17 @@
       "path---articles-good-to-great-b88b47385ab2b212031c.js",
       "path---articles-good-to-great-b88b47385ab2b212031c.js.map"
     ],
+    "path---articles-how-google-tests-software": [
+      "path---articles-how-google-tests-software-4dd992da52c2df45936a.js",
+      "path---articles-how-google-tests-software-4dd992da52c2df45936a.js.map"
+    ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-3cb202e051e45b361594.js",
       "component---src-layouts-index-js-3cb202e051e45b361594.js.map"
     ],
     "path---index": [
-      "path---index-a8fbe383baeeb37462eb.js",
-      "path---index-a8fbe383baeeb37462eb.js.map"
+      "path---index-94d750875f1ccc329602.js",
+      "path---index-94d750875f1ccc329602.js.map"
     ],
     "commons": [
       "commons-b5df97a139f8854220d4.js",
@@ -69,9 +73,9 @@
       "path---articles-all-the-wealth-b454de329f8d531014ef.js.map"
     ],
     "app": [
-      "app-614c0270470fc198a605.js",
+      "app-4018bc7426ad30ee66bb.js",
       "build-js-styles.css",
-      "app-614c0270470fc198a605.js.map",
+      "app-4018bc7426ad30ee66bb.js.map",
       "build-js-styles.css.map"
     ],
     "path---articles-why-start": [
