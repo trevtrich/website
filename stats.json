@@ -8,6 +8,10 @@
       "path---articles-if-you-re-afraid-of-it-build-something-with-it-a5d7d3ce610376c746f5.js",
       "path---articles-if-you-re-afraid-of-it-build-something-with-it-a5d7d3ce610376c746f5.js.map"
     ],
+    "path---articles-review-the-tangled-web": [
+      "path---articles-review-the-tangled-web-0309fd22a399bbf87c5e.js",
+      "path---articles-review-the-tangled-web-0309fd22a399bbf87c5e.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-b2e7f974dd34fe910046.js",
       "component---src-pages-index-js-b2e7f974dd34fe910046.js.map"
@@ -48,9 +52,13 @@
       "component---src-layouts-index-js-3cb202e051e45b361594.js",
       "component---src-layouts-index-js-3cb202e051e45b361594.js.map"
     ],
+    "path---articles-principles": [
+      "path---articles-principles-de60b79dbefd58fcf623.js",
+      "path---articles-principles-de60b79dbefd58fcf623.js.map"
+    ],
     "path---index": [
-      "path---index-6c80f86b22abb84dec8c.js",
-      "path---index-6c80f86b22abb84dec8c.js.map"
+      "path---index-76a125930de8a0fa69f4.js",
+      "path---index-76a125930de8a0fa69f4.js.map"
     ],
     "commons": [
       "commons-b5df97a139f8854220d4.js",
@@ -73,9 +81,9 @@
       "path---articles-all-the-wealth-b454de329f8d531014ef.js.map"
     ],
     "app": [
-      "app-4018bc7426ad30ee66bb.js",
+      "app-aebe314043d7f01a0e6b.js",
       "build-js-styles.css",
-      "app-4018bc7426ad30ee66bb.js.map",
+      "app-aebe314043d7f01a0e6b.js.map",
       "build-js-styles.css.map"
     ],
     "path---articles-why-start": [
