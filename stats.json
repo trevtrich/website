@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---articles-are-integration-tests-only-a-problem-because-of-design": [
+      "path---articles-are-integration-tests-only-a-problem-because-of-design-8e777d592e13a51a7fa1.js",
+      "path---articles-are-integration-tests-only-a-problem-because-of-design-8e777d592e13a51a7fa1.js.map"
+    ],
     "path---articles-hello-world": [
       "path---articles-hello-world-155757092a4229489e2e.js",
       "path---articles-hello-world-155757092a4229489e2e.js.map"
@@ -32,6 +36,10 @@
       "path---articles-task-managers-1210365f6fad055fabad.js",
       "path---articles-task-managers-1210365f6fad055fabad.js.map"
     ],
+    "path---articles-follow-the-scent-of-your-tests": [
+      "path---articles-follow-the-scent-of-your-tests-31a7045e912595d3b627.js",
+      "path---articles-follow-the-scent-of-your-tests-31a7045e912595d3b627.js.map"
+    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
@@ -57,8 +65,8 @@
       "path---articles-principles-de60b79dbefd58fcf623.js.map"
     ],
     "path---index": [
-      "path---index-9b20c1d1dd2b143625fd.js",
-      "path---index-9b20c1d1dd2b143625fd.js.map"
+      "path---index-162385daf3cea6504ba1.js",
+      "path---index-162385daf3cea6504ba1.js.map"
     ],
     "commons": [
       "commons-b5df97a139f8854220d4.js",
@@ -81,9 +89,9 @@
       "path---articles-all-the-wealth-b454de329f8d531014ef.js.map"
     ],
     "app": [
-      "app-aebe314043d7f01a0e6b.js",
+      "app-978c59e68ee34569562a.js",
       "build-js-styles.css",
-      "app-aebe314043d7f01a0e6b.js.map",
+      "app-978c59e68ee34569562a.js.map",
       "build-js-styles.css.map"
     ],
     "path---articles-why-start": [
