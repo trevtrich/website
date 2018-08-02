@@ -20,6 +20,10 @@
       "component---src-pages-index-js-b2e7f974dd34fe910046.js",
       "component---src-pages-index-js-b2e7f974dd34fe910046.js.map"
     ],
+    "path---articles-til-a-little-jq-with-xargs": [
+      "path---articles-til-a-little-jq-with-xargs-2be5f85368573d054ca9.js",
+      "path---articles-til-a-little-jq-with-xargs-2be5f85368573d054ca9.js.map"
+    ],
     "path---articles-rest-in-practice": [
       "path---articles-rest-in-practice-31ad59008dccd04e23e5.js",
       "path---articles-rest-in-practice-31ad59008dccd04e23e5.js.map"
@@ -65,8 +69,8 @@
       "path---articles-principles-de60b79dbefd58fcf623.js.map"
     ],
     "path---index": [
-      "path---index-162385daf3cea6504ba1.js",
-      "path---index-162385daf3cea6504ba1.js.map"
+      "path---index-98d76835322cc9f7af84.js",
+      "path---index-98d76835322cc9f7af84.js.map"
     ],
     "commons": [
       "commons-b5df97a139f8854220d4.js",
@@ -89,9 +93,9 @@
       "path---articles-all-the-wealth-b454de329f8d531014ef.js.map"
     ],
     "app": [
-      "app-978c59e68ee34569562a.js",
+      "app-89bc4de15d32bdbddc7f.js",
       "build-js-styles.css",
-      "app-978c59e68ee34569562a.js.map",
+      "app-89bc4de15d32bdbddc7f.js.map",
       "build-js-styles.css.map"
     ],
     "path---articles-why-start": [
