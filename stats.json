@@ -44,6 +44,10 @@
       "path---articles-follow-the-scent-of-your-tests-31a7045e912595d3b627.js",
       "path---articles-follow-the-scent-of-your-tests-31a7045e912595d3b627.js.map"
     ],
+    "path---articles-til-using-find-with-extended-regex": [
+      "path---articles-til-using-find-with-extended-regex-38c4e6e7123635a102db.js",
+      "path---articles-til-using-find-with-extended-regex-38c4e6e7123635a102db.js.map"
+    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
@@ -69,8 +73,8 @@
       "path---articles-principles-de60b79dbefd58fcf623.js.map"
     ],
     "path---index": [
-      "path---index-98d76835322cc9f7af84.js",
-      "path---index-98d76835322cc9f7af84.js.map"
+      "path---index-be7df07cf9a30ea343ef.js",
+      "path---index-be7df07cf9a30ea343ef.js.map"
     ],
     "commons": [
       "commons-b5df97a139f8854220d4.js",
@@ -93,9 +97,9 @@
       "path---articles-all-the-wealth-b454de329f8d531014ef.js.map"
     ],
     "app": [
-      "app-89bc4de15d32bdbddc7f.js",
+      "app-3ef28b0f2c2abb27725e.js",
       "build-js-styles.css",
-      "app-89bc4de15d32bdbddc7f.js.map",
+      "app-3ef28b0f2c2abb27725e.js.map",
       "build-js-styles.css.map"
     ],
     "path---articles-why-start": [
