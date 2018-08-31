@@ -4,6 +4,10 @@
       "path---articles-are-integration-tests-only-a-problem-because-of-design-8e777d592e13a51a7fa1.js",
       "path---articles-are-integration-tests-only-a-problem-because-of-design-8e777d592e13a51a7fa1.js.map"
     ],
+    "path---articles-til-revert-multiple-commits": [
+      "path---articles-til-revert-multiple-commits-c61c6e542b8f34122f93.js",
+      "path---articles-til-revert-multiple-commits-c61c6e542b8f34122f93.js.map"
+    ],
     "path---articles-hello-world": [
       "path---articles-hello-world-155757092a4229489e2e.js",
       "path---articles-hello-world-155757092a4229489e2e.js.map"
@@ -73,8 +77,8 @@
       "path---articles-principles-de60b79dbefd58fcf623.js.map"
     ],
     "path---index": [
-      "path---index-be7df07cf9a30ea343ef.js",
-      "path---index-be7df07cf9a30ea343ef.js.map"
+      "path---index-04bf6ba6fc980212c0f1.js",
+      "path---index-04bf6ba6fc980212c0f1.js.map"
     ],
     "commons": [
       "commons-b5df97a139f8854220d4.js",
@@ -97,9 +101,9 @@
       "path---articles-all-the-wealth-b454de329f8d531014ef.js.map"
     ],
     "app": [
-      "app-3ef28b0f2c2abb27725e.js",
+      "app-ae005779b1be6c2cd1b4.js",
       "build-js-styles.css",
-      "app-3ef28b0f2c2abb27725e.js.map",
+      "app-ae005779b1be6c2cd1b4.js.map",
       "build-js-styles.css.map"
     ],
     "path---articles-why-start": [
