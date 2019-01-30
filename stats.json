@@ -28,6 +28,10 @@
       "path---articles-til-a-little-jq-with-xargs-2be5f85368573d054ca9.js",
       "path---articles-til-a-little-jq-with-xargs-2be5f85368573d054ca9.js.map"
     ],
+    "path---articles-diff-json-blobs-with-jq-and-vimdiff": [
+      "path---articles-diff-json-blobs-with-jq-and-vimdiff-f7be8a4f933b3b8fea75.js",
+      "path---articles-diff-json-blobs-with-jq-and-vimdiff-f7be8a4f933b3b8fea75.js.map"
+    ],
     "path---articles-rest-in-practice": [
       "path---articles-rest-in-practice-31ad59008dccd04e23e5.js",
       "path---articles-rest-in-practice-31ad59008dccd04e23e5.js.map"
@@ -81,8 +85,8 @@
       "path---articles-principles-de60b79dbefd58fcf623.js.map"
     ],
     "path---index": [
-      "path---index-eda00177898d8eff26a0.js",
-      "path---index-eda00177898d8eff26a0.js.map"
+      "path---index-e33ea9834f5d940f12db.js",
+      "path---index-e33ea9834f5d940f12db.js.map"
     ],
     "commons": [
       "commons-b5df97a139f8854220d4.js",
@@ -109,9 +113,9 @@
       "path---articles-all-the-wealth-b454de329f8d531014ef.js.map"
     ],
     "app": [
-      "app-bf4410d7a36c1bf509bf.js",
+      "app-c400e6aa36c759f6b4f3.js",
       "build-js-styles.css",
-      "app-bf4410d7a36c1bf509bf.js.map",
+      "app-c400e6aa36c759f6b4f3.js.map",
       "build-js-styles.css.map"
     ],
     "path---articles-why-start": [
