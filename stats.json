@@ -85,12 +85,16 @@
       "path---articles-principles-de60b79dbefd58fcf623.js.map"
     ],
     "path---index": [
-      "path---index-e33ea9834f5d940f12db.js",
-      "path---index-e33ea9834f5d940f12db.js.map"
+      "path---index-83b2a148708b358356df.js",
+      "path---index-83b2a148708b358356df.js.map"
     ],
     "commons": [
       "commons-b5df97a139f8854220d4.js",
       "commons-b5df97a139f8854220d4.js.map"
+    ],
+    "path---articles-grrr-git-says-my-directory-isn-t-clean": [
+      "path---articles-grrr-git-says-my-directory-isn-t-clean-97784d130830b6dcad97.js",
+      "path---articles-grrr-git-says-my-directory-isn-t-clean-97784d130830b6dcad97.js.map"
     ],
     "path---articles-til-use-jq-to-find-all-elements-with-an-array-property-of-given-length": [
       "path---articles-til-use-jq-to-find-all-elements-with-an-array-property-of-given-length-79b76ffd87363ea38887.js",
@@ -113,9 +117,9 @@
       "path---articles-all-the-wealth-b454de329f8d531014ef.js.map"
     ],
     "app": [
-      "app-c400e6aa36c759f6b4f3.js",
+      "app-eea26925a23999baaf9d.js",
       "build-js-styles.css",
-      "app-c400e6aa36c759f6b4f3.js.map",
+      "app-eea26925a23999baaf9d.js.map",
       "build-js-styles.css.map"
     ],
     "path---articles-why-start": [
