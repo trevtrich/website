@@ -85,8 +85,12 @@
       "path---articles-principles-de60b79dbefd58fcf623.js.map"
     ],
     "path---index": [
-      "path---index-83b2a148708b358356df.js",
-      "path---index-83b2a148708b358356df.js.map"
+      "path---index-8025e8c6a92db795637e.js",
+      "path---index-8025e8c6a92db795637e.js.map"
+    ],
+    "path---articles-delete-all-but-branches-but-master": [
+      "path---articles-delete-all-but-branches-but-master-d83a8d0d4a2d81e4334e.js",
+      "path---articles-delete-all-but-branches-but-master-d83a8d0d4a2d81e4334e.js.map"
     ],
     "commons": [
       "commons-b5df97a139f8854220d4.js",
@@ -117,9 +121,9 @@
       "path---articles-all-the-wealth-b454de329f8d531014ef.js.map"
     ],
     "app": [
-      "app-eea26925a23999baaf9d.js",
+      "app-dd02882cfa2a269ab36f.js",
       "build-js-styles.css",
-      "app-eea26925a23999baaf9d.js.map",
+      "app-dd02882cfa2a269ab36f.js.map",
       "build-js-styles.css.map"
     ],
     "path---articles-why-start": [
