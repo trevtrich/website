@@ -43,7 +43,7 @@
     "husky": "^0.14.3",
     "lint-staged": "^4.2.1",
     "moment": "2.29.0",
-    "normalize.css": "^7.0.0",
+    "normalize.css": "^8.0.1",
     "prettier": "1.19.1",
     "striptags": "2.2.1",
     "textlint": "^8.2.1",
