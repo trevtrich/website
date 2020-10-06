@@ -42,12 +42,17 @@ class Profile extends React.Component {
                   Currently focussing on front-end work with a React-Redux stack
                   and a Hapi.js server as our back-end for front-end leveraging
                   REST-based HATEOAS patterns as much as possible. Deploying
-                  continuously using Travis CI into Google’s App Engine platform.
-                  Contributing to interface design and user experience of the
-                  product.
+                  continuously using Travis CI into Google’s App Engine
+                  platform. Contributing to interface design and user experience
+                  of the product.
                 </p>
                 <h3>LevelView</h3>
-                <p>Designed, developed, and published iOS application in Swift as a utility application people can use for ensuring how "level" something is whether hanging photos on a wall or something similar.</p>
+                <p>
+                  Designed, developed, and published iOS application in Swift as
+                  a utility application people can use for ensuring how "level"
+                  something is whether hanging photos on a wall or something
+                  similar.
+                </p>
                 <h3>Source Allies</h3>
                 <p>
                   Operated as software consultant and craftsman in an agile
