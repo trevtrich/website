@@ -4,7 +4,7 @@ module.exports = {
     description: 'Thoughts on life & crafting software',
     url: 'https://trevorrichardson.me',
     author: 'richardson-trevor',
-    twitter: 'IntelXDesign',
+    twitter: 'trevtrich',
   },
   pathPrefix: '/',
   plugins: [
