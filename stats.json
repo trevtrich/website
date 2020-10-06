@@ -1,40 +1,40 @@
 {
   "assetsByChunkName": {
     "path---articles-are-integration-tests-only-a-problem-because-of-design": [
-      "path---articles-are-integration-tests-only-a-problem-because-of-design-8e777d592e13a51a7fa1.js",
-      "path---articles-are-integration-tests-only-a-problem-because-of-design-8e777d592e13a51a7fa1.js.map"
+      "path---articles-are-integration-tests-only-a-problem-because-of-design-bf92f516641c68c4368e.js",
+      "path---articles-are-integration-tests-only-a-problem-because-of-design-bf92f516641c68c4368e.js.map"
     ],
     "path---articles-til-revert-multiple-commits": [
-      "path---articles-til-revert-multiple-commits-c61c6e542b8f34122f93.js",
-      "path---articles-til-revert-multiple-commits-c61c6e542b8f34122f93.js.map"
+      "path---articles-til-revert-multiple-commits-c75ef760291417e2b2a6.js",
+      "path---articles-til-revert-multiple-commits-c75ef760291417e2b2a6.js.map"
     ],
     "path---articles-hello-world": [
-      "path---articles-hello-world-155757092a4229489e2e.js",
-      "path---articles-hello-world-155757092a4229489e2e.js.map"
+      "path---articles-hello-world-7715d6af4c4c04c463da.js",
+      "path---articles-hello-world-7715d6af4c4c04c463da.js.map"
     ],
     "path---articles-if-you-re-afraid-of-it-build-something-with-it": [
-      "path---articles-if-you-re-afraid-of-it-build-something-with-it-308de0a1a15752846b6a.js",
-      "path---articles-if-you-re-afraid-of-it-build-something-with-it-308de0a1a15752846b6a.js.map"
+      "path---articles-if-you-re-afraid-of-it-build-something-with-it-713970c95804fcd5f16f.js",
+      "path---articles-if-you-re-afraid-of-it-build-something-with-it-713970c95804fcd5f16f.js.map"
     ],
     "path---articles-review-the-tangled-web": [
-      "path---articles-review-the-tangled-web-0309fd22a399bbf87c5e.js",
-      "path---articles-review-the-tangled-web-0309fd22a399bbf87c5e.js.map"
+      "path---articles-review-the-tangled-web-b6e19217d5ca358454ef.js",
+      "path---articles-review-the-tangled-web-b6e19217d5ca358454ef.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-b2e7f974dd34fe910046.js",
-      "component---src-pages-index-js-b2e7f974dd34fe910046.js.map"
+      "component---src-pages-index-js-47881c8e8ac735b4cd84.js",
+      "component---src-pages-index-js-47881c8e8ac735b4cd84.js.map"
     ],
     "path---articles-til-a-little-jq-with-xargs": [
-      "path---articles-til-a-little-jq-with-xargs-2be5f85368573d054ca9.js",
-      "path---articles-til-a-little-jq-with-xargs-2be5f85368573d054ca9.js.map"
+      "path---articles-til-a-little-jq-with-xargs-40e206e126ed76530329.js",
+      "path---articles-til-a-little-jq-with-xargs-40e206e126ed76530329.js.map"
     ],
     "path---articles-diff-json-blobs-with-jq-and-vimdiff": [
-      "path---articles-diff-json-blobs-with-jq-and-vimdiff-f7be8a4f933b3b8fea75.js",
-      "path---articles-diff-json-blobs-with-jq-and-vimdiff-f7be8a4f933b3b8fea75.js.map"
+      "path---articles-diff-json-blobs-with-jq-and-vimdiff-314aad093afd132deacd.js",
+      "path---articles-diff-json-blobs-with-jq-and-vimdiff-314aad093afd132deacd.js.map"
     ],
     "path---articles-rest-in-practice": [
-      "path---articles-rest-in-practice-31ad59008dccd04e23e5.js",
-      "path---articles-rest-in-practice-31ad59008dccd04e23e5.js.map"
+      "path---articles-rest-in-practice-3ccdc99c1cff7c018434.js",
+      "path---articles-rest-in-practice-3ccdc99c1cff7c018434.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -45,90 +45,94 @@
       "path---profile-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---articles-task-managers": [
-      "path---articles-task-managers-1210365f6fad055fabad.js",
-      "path---articles-task-managers-1210365f6fad055fabad.js.map"
+      "path---articles-task-managers-e09c1d9b8de96c44a6be.js",
+      "path---articles-task-managers-e09c1d9b8de96c44a6be.js.map"
     ],
     "path---articles-follow-the-scent-of-your-tests": [
-      "path---articles-follow-the-scent-of-your-tests-31a7045e912595d3b627.js",
-      "path---articles-follow-the-scent-of-your-tests-31a7045e912595d3b627.js.map"
+      "path---articles-follow-the-scent-of-your-tests-ab890cc4139a54629404.js",
+      "path---articles-follow-the-scent-of-your-tests-ab890cc4139a54629404.js.map"
+    ],
+    "path---articles-close-all-vim-tabs-to-the-right": [
+      "path---articles-close-all-vim-tabs-to-the-right-812318242f2c84b29ae9.js",
+      "path---articles-close-all-vim-tabs-to-the-right-812318242f2c84b29ae9.js.map"
     ],
     "path---articles-til-using-find-with-extended-regex": [
-      "path---articles-til-using-find-with-extended-regex-38c4e6e7123635a102db.js",
-      "path---articles-til-using-find-with-extended-regex-38c4e6e7123635a102db.js.map"
+      "path---articles-til-using-find-with-extended-regex-88df35915535d1ec98c8.js",
+      "path---articles-til-using-find-with-extended-regex-88df35915535d1ec98c8.js.map"
     ],
     "path---articles-til-center-code-in-jet-brains-editors": [
-      "path---articles-til-center-code-in-jet-brains-editors-968f3e0214311a2a13af.js",
-      "path---articles-til-center-code-in-jet-brains-editors-968f3e0214311a2a13af.js.map"
+      "path---articles-til-center-code-in-jet-brains-editors-49623d7e284531a461c7.js",
+      "path---articles-til-center-code-in-jet-brains-editors-49623d7e284531a461c7.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-6fd3cd77d6fef6b3c044.js",
-      "component---src-templates-blog-post-js-6fd3cd77d6fef6b3c044.js.map"
+      "component---src-templates-blog-post-js-da7e82fc5d2ca55ed6fd.js",
+      "component---src-templates-blog-post-js-da7e82fc5d2ca55ed6fd.js.map"
     ],
     "path---articles-good-to-great": [
-      "path---articles-good-to-great-b88b47385ab2b212031c.js",
-      "path---articles-good-to-great-b88b47385ab2b212031c.js.map"
+      "path---articles-good-to-great-7758b201600ccb5e1ffc.js",
+      "path---articles-good-to-great-7758b201600ccb5e1ffc.js.map"
     ],
     "path---articles-how-google-tests-software": [
-      "path---articles-how-google-tests-software-4dd992da52c2df45936a.js",
-      "path---articles-how-google-tests-software-4dd992da52c2df45936a.js.map"
+      "path---articles-how-google-tests-software-f8e3cbb0f837ef0c4cd3.js",
+      "path---articles-how-google-tests-software-f8e3cbb0f837ef0c4cd3.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-3cb202e051e45b361594.js",
-      "component---src-layouts-index-js-3cb202e051e45b361594.js.map"
+      "component---src-layouts-index-js-3b0fe14399ce9c4346f7.js",
+      "component---src-layouts-index-js-3b0fe14399ce9c4346f7.js.map"
     ],
     "path---articles-principles": [
-      "path---articles-principles-de60b79dbefd58fcf623.js",
-      "path---articles-principles-de60b79dbefd58fcf623.js.map"
+      "path---articles-principles-b8d61c38c703253a1406.js",
+      "path---articles-principles-b8d61c38c703253a1406.js.map"
     ],
     "path---index": [
-      "path---index-8025e8c6a92db795637e.js",
-      "path---index-8025e8c6a92db795637e.js.map"
+      "path---index-3865f4e50981cc771187.js",
+      "path---index-3865f4e50981cc771187.js.map"
     ],
     "path---articles-delete-all-but-branches-but-master": [
-      "path---articles-delete-all-but-branches-but-master-d83a8d0d4a2d81e4334e.js",
-      "path---articles-delete-all-but-branches-but-master-d83a8d0d4a2d81e4334e.js.map"
+      "path---articles-delete-all-but-branches-but-master-d00503d0e82859dd43c5.js",
+      "path---articles-delete-all-but-branches-but-master-d00503d0e82859dd43c5.js.map"
     ],
     "commons": [
-      "commons-b5df97a139f8854220d4.js",
-      "commons-b5df97a139f8854220d4.js.map"
+      "commons-17ad36fa7d6346d3a748.js",
+      "commons-17ad36fa7d6346d3a748.js.map"
     ],
     "path---articles-grrr-git-says-my-directory-isn-t-clean": [
-      "path---articles-grrr-git-says-my-directory-isn-t-clean-97784d130830b6dcad97.js",
-      "path---articles-grrr-git-says-my-directory-isn-t-clean-97784d130830b6dcad97.js.map"
+      "path---articles-grrr-git-says-my-directory-isn-t-clean-44fcd162d473a8892f1f.js",
+      "path---articles-grrr-git-says-my-directory-isn-t-clean-44fcd162d473a8892f1f.js.map"
     ],
     "path---articles-til-use-jq-to-find-all-elements-with-an-array-property-of-given-length": [
-      "path---articles-til-use-jq-to-find-all-elements-with-an-array-property-of-given-length-79b76ffd87363ea38887.js",
-      "path---articles-til-use-jq-to-find-all-elements-with-an-array-property-of-given-length-79b76ffd87363ea38887.js.map"
+      "path---articles-til-use-jq-to-find-all-elements-with-an-array-property-of-given-length-0bec603d6d144087b368.js",
+      "path---articles-til-use-jq-to-find-all-elements-with-an-array-property-of-given-length-0bec603d6d144087b368.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---articles-restful-web-services": [
-      "path---articles-restful-web-services-4aee79d2d8da07fb3b4a.js",
-      "path---articles-restful-web-services-4aee79d2d8da07fb3b4a.js.map"
+      "path---articles-restful-web-services-9509707c2b590721ecb1.js",
+      "path---articles-restful-web-services-9509707c2b590721ecb1.js.map"
     ],
     "path---articles-using-vim": [
-      "path---articles-using-vim-cc398f1b775fcc14926d.js",
-      "path---articles-using-vim-cc398f1b775fcc14926d.js.map"
+      "path---articles-using-vim-077800dd8a2dba478192.js",
+      "path---articles-using-vim-077800dd8a2dba478192.js.map"
     ],
     "path---articles-all-the-wealth": [
-      "path---articles-all-the-wealth-b454de329f8d531014ef.js",
-      "path---articles-all-the-wealth-b454de329f8d531014ef.js.map"
+      "path---articles-all-the-wealth-c3170a0b5d6238236873.js",
+      "path---articles-all-the-wealth-c3170a0b5d6238236873.js.map"
     ],
     "app": [
-      "app-dd02882cfa2a269ab36f.js",
+      "app-81d9d8936b4e7c2015b4.js",
       "build-js-styles.css",
-      "app-dd02882cfa2a269ab36f.js.map",
+      "app-81d9d8936b4e7c2015b4.js.map",
       "build-js-styles.css.map"
     ],
     "path---articles-why-start": [
-      "path---articles-why-start-aae192fd7059f83fe530.js",
-      "path---articles-why-start-aae192fd7059f83fe530.js.map"
+      "path---articles-why-start-2e2aac0753ccb14b11dd.js",
+      "path---articles-why-start-2e2aac0753ccb14b11dd.js.map"
     ],
     "component---src-pages-profile-index-jsx": [
       "component---src-pages-profile-index-jsx-c2054b95cf43ffe199a9.js",
