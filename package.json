@@ -33,7 +33,7 @@
     "animate.css": "4.1.1",
     "babel-eslint": "10.1.0",
     "bootstrap": "4.5.3",
-    "devicon": "git+https://github.com/konpa/devicon.git#v2.7",
+    "devicon": "git+https://github.com/konpa/devicon.git#v2.9.0",
     "eslint": "4.19.1",
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-prettier": "2.7.0",
