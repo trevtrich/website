@@ -44,7 +44,7 @@
     "lint-staged": "^4.2.1",
     "moment": "2.29.1",
     "normalize.css": "^8.0.1",
-    "prettier": "1.19.1",
+    "prettier": "2.3.2",
     "striptags": "2.2.1",
     "textlint": "^8.2.1",
     "textlint-rule-preset-ja-spacing": "2.0.2",
