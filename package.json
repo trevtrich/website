@@ -41,7 +41,7 @@
     "font-awesome": "^4.7.0",
     "gh-pages": "3.1.0",
     "husky": "^0.14.3",
-    "lint-staged": "^4.2.1",
+    "lint-staged": "^11.0.1",
     "moment": "2.29.1",
     "normalize.css": "^8.0.1",
     "prettier": "1.19.1",
