@@ -47,3 +47,94 @@ app.listen(PORT, () => {
     console.log('launching the express server!');
 });
 ```
+
+Ended up venturing into the WS docs themselves and [found good example of using websockets](https://github.com/websockets/ws/blob/c82b08737fbe142dd910fc7e429399e23b95c6d6/examples/express-session-parse/index.js) with express that's a little more informative as to what all is happening here.
+
+Alright, pass 2. Here's the new server:
+
+```js
+const express = require('express');
+const http = require('http');
+const WebSocket = require('ws');
+
+const app = express();
+const PORT = process.env.PORT || 8000
+
+const server = http.createServer(app);
+const wss = new WebSocket.Server({ clientTracking: false, noServer: true });
+
+server.on('upgrade', function (request, socket, head) {
+    console.log('handling upgrade from http server. attempting websocket connection...');
+  
+    wss.handleUpgrade(request, socket, head, function (ws) {
+      wss.emit('connection', ws, request);
+    });
+  });
+
+  wss.on("connection", function (ws, request) {
+    ws.on("message", function (message) {
+      console.log(`Received message ${message}`);
+    });
+
+    ws.on("close", function () {
+      console.log("closing socket connection...");
+    });
+  });
+  
+app.get('/ws', (_, res) => res.send('this is a websocket endpoint. ask for an upgrade and you will get it!'));
+
+server.listen(PORT, function () {
+  console.log(`Listening on http://localhost:${PORT}`);
+});
+```
+
+Super simple to add a little html page to server up from express:
+```js
+app.get('/', (_, res) => res.sendFile('index.html', {root: path.join(__dirname, '../client/')}));
+```
+
+so now i've got this little one:
+```html
+<!DOCTYPE html>
+<html>
+    were in here!
+</html>
+```
+
+oh heck yes.. here is a working solution sending a message from the webpage to the websocket!
+```js
+<!DOCTYPE html>
+<html>
+    were in here!
+    <button>Click me!</button>
+    <script>
+        function createWebSocket() {
+            console.log('were trying to make it!');
+            const websocket = new WebSocket('ws://localhost:8000/ws');
+            console.log(websocket);
+
+            websocket.onopen = () => {
+                console.log('the connection is open! trying to send a message...')
+                websocket.send('holy moly this is the first one!')
+            };
+        }
+
+        const button = document.querySelector('button');
+        button.onclick = createWebSocket; 
+    </script>
+</html>
+```
+
+and the output:
+```sh
+> websocket-live-eventing@1.0.0 dev
+> node src/server/index.js
+
+Listening on http://localhost:8000
+handling upgrade from http server. attempting websocket connection...
+preparing the connection!
+closing socket connection...
+handling upgrade from http server. attempting websocket connection...
+preparing the connection!
+Received message holy moly this is the first one!
+```
