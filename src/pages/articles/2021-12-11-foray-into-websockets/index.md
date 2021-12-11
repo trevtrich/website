@@ -15,9 +15,9 @@ At work we've got a fancy spreadsheet app that is regularly updated by one or po
 A plan:
 [X] Don't get fancy. Just get it working.
 [X] Initial goal: see a single piece of data update on the fly.
-[ ] Start out just updating data directly on the server and pushing it to a browser.
-[ ] Let multiple clients connect and receive the same data.
-[ ] Let something push data into the server that continues to push data to clients.
+[X] Start out just updating data directly on the server and pushing it to a browser.
+[X] Let multiple clients connect and receive the same data.
+[X] Let something push data into the server that continues to push data to clients.
 
 This seems like a good start and will be useful and interesting. I'll start there.
 
@@ -274,4 +274,34 @@ and the corresponding browser coded that handles it:
         submitMessageButton.onclick = sendMessage;
     </script>
 </html>
+```
+
+The latest experiment is making sure we can handle multiple websockets with this server and pass data around as we please. That "just worked" with no additional changes. I just cracked open another browser session and it started working. The thing that caught my attn was the numbers were skipping every other. So 1, 3, 5, 7 on one tab and 2, 4, 6, 8 on the other. This was because a global variable was used on the server to do the interval counting. Because an interval was added for each connection at the same interval time, this will for the most part be expected to update twice during a session in this small case of two connections.
+
+## Pushing data to browser from and external event source
+I will use Google's [Google Cloud Platform](https://cloud.google.com/) and specifically their [Pub/Sub service](https://cloud.google.com/pubsub/) to carry out the event generation. For now, I'll plan to just generate the messages manually in the Cloud Console interface, which is Google's way of interacting with your services on their platform.
+
+Steps
+- `npm i @google-cloud/pubsub`
+- follow google docs on [pub/sub node.js client usage](https://cloud.google.com/pubsub/docs/reference/libraries#client-libraries-install-nodejs)
+- create topic in GCP project
+- make sure there is a subscription to that topic
+- verify all application default creds setup to run off personal account instead of work account
+
+Code to pull this off:
+```js
+async function listenForPubSubMessages(wsConnection) {
+  const pubsub = new PubSub({projectId: 'websocket-server-334803'});
+  const subscription = await pubsub.subscription('projects/websocket-server-334803/subscriptions/test-messages-sub');
+
+  subscription.on("message", (message) => {
+    console.log("Received message from pub/sub:", message.data.toString());
+    wsConnection.send(message.data.toString());
+  });
+
+  subscription.on("error", (error) => {
+    console.error("Received error:", error);
+    process.exit(1);
+  });
+}
 ```
