@@ -13,11 +13,11 @@ Never done them before. Also haven't written an article for quite some time so w
 At work we've got a fancy spreadsheet app that is regularly updated by one or potentially multiple users at once. Think a mix of Google Sheets and Google Docs. Right now, we don't have a great way for one user to receive updates from other users entering data in the shared docs a company might be working on. This POC is going to be an exploration of what that might look like.
 
 A plan:
-1. Don't get fancy. Just get it working.
-2. Initial goal: see a single piece of data update on the fly.
-3. Start out just updating data directly on the server and pushing it to a browser.
-4. Let multiple clients connect and receive the same data.
-5. Let something push data into the server that continues to push data to clients.
+[X] Don't get fancy. Just get it working.
+[X] Initial goal: see a single piece of data update on the fly.
+[ ] Start out just updating data directly on the server and pushing it to a browser.
+[ ] Let multiple clients connect and receive the same data.
+[ ] Let something push data into the server that continues to push data to clients.
 
 This seems like a good start and will be useful and interesting. I'll start there.
 
@@ -162,6 +162,102 @@ now we can submit as many messages to the server as we want!
                 console.log('the connection is open! trying to send a message...')
                 websocket.send('holy moly this is the first one!')
             };
+        }
+
+        const initializeWebsocketButton = document.getElementById('initialize-websocket-button');
+        initializeWebsocketButton.onclick = createWebSocket; 
+
+        function sendMessage() {
+            websocket.send(messageInput.value);
+            console.log(`sent message: ${messageInput.value}. now clearing input..`)
+            messageInput.value = '';
+        }
+
+        const messageInput = document.querySelector('input');
+        const submitMessageButton = document.getElementById('submit-message-button');
+        submitMessageButton.onclick = sendMessage;
+    </script>
+</html>
+```
+
+Alright, looking back to the goals.. now i want to see if I can send a message BACK to the client from the server. I'm thinking I'll just do this on an interval rather than the complexity of taking input to the server somehow. Lets do it.
+
+Well, that turned out to be pretty easy too. Here's the running server code that pushes messages back to the browser:
+```js
+const express = require('express');
+const http = require('http');
+const path = require('path');
+const WebSocket = require('ws');
+
+const app = express();
+const PORT = process.env.PORT || 8000
+
+const server = http.createServer(app);
+const wss = new WebSocket.Server({ clientTracking: false, noServer: true });
+
+server.on('upgrade', function (request, socket, head) {
+    console.log('handling upgrade from http server. attempting websocket connection...');
+  
+    wss.handleUpgrade(request, socket, head, function (ws) {
+      wss.emit('connection', ws, request);
+    });
+  });
+
+  wss.on("connection", function (ws, request) {
+    console.log('preparing the connection!');
+    ws.on("message", function (message) {
+      console.log(`Received message ${message}`);
+    });
+
+    ws.on("close", function () {
+      console.log("closing socket connection...");
+    });
+
+    sendIntervalMessage(ws, 2000);
+  });
+  
+app.get('/ws', (_, res) => res.send('this is a websocket endpoint. ask for an upgrade and you will get it!'));
+app.get('/', (_, res) => res.sendFile('index.html', {root: path.join(__dirname, '../client/')}));
+
+server.listen(PORT, function () {
+  console.log(`Listening on http://localhost:${PORT}`);
+});
+
+let currentInterval = 0;
+function sendIntervalMessage(wsConnection, intervalInMs) {
+
+  setInterval(() => {
+    wsConnection.send(`sending message to the client: ${currentInterval}`);
+    currentInterval += 1;
+  }, intervalInMs);
+}
+```
+
+and the corresponding browser coded that handles it:
+```html
+<!DOCTYPE html>
+<html>
+    <div>
+        <button id="initialize-websocket-button">Initialize websocket.</button>
+    </div>
+    <div>
+        <input type="text"></input>
+        <button id="submit-message-button">Send message</button>
+    </div>
+    <script>
+        let websocket;
+
+        function createWebSocket() {
+            console.log('were trying to make it!');
+            websocket = new WebSocket('ws://localhost:8000/ws');
+            console.log(websocket);
+
+            websocket.onopen = () => {
+                console.log('the connection is open! trying to send a message...')
+                websocket.send('holy moly this is the first one!')
+            };
+
+            websocket.onmessage = (event) => console.log(`received message from the server: ${event.data}`);
         }
 
         const initializeWebsocketButton = document.getElementById('initialize-websocket-button');
