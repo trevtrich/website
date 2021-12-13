@@ -16,18 +16,18 @@ class Profile extends React.Component {
           <div className="container">
             <img
               src={pathPrefix + '/img/profile.jpg'}
-              alt="IntelXDesign"
+              alt="trevtrich"
               className="rounded-circle mx-auto d-block"
               width="120px"
             />
             <div>
               <a
                 ref="twButton"
-                href="https://twitter.com/IntelXDesign"
+                href="https://twitter.com/trevtrich"
                 className="twitter-follow-button"
                 data-show-count="false"
               >
-                Follow @IntelXDesign
+                Follow @trevtrich
               </a>
             </div>
           </div>

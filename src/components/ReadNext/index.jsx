@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
-import './style.scss'
 
 class ReadNext extends React.Component {
   render() {

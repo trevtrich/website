@@ -1,30 +1,3 @@
-[![Build Status](https://travis-ci.org/jaxx2104/gatsby-starter-bootstrap.svg?branch=master)](https://travis-ci.org/jaxx2104/gatsby-starter-bootstrap)
-[![dependency Status](https://img.shields.io/david/jaxx2104/gatsby-starter-bootstrap.svg?style=flat-square)](https://david-dm.org/jaxx2104/gatsby-starter-bootstrap#info=dependencies)
-[![Known Vulnerabilities](https://snyk.io/test/github/jaxx2104/gatsby-starter-bootstrap/badge.svg)](https://snyk.io/test/github/jaxx2104/gatsby-starter-bootstrap)
+This is my personal dumping ground for anything I'm learning about, looking into, or just wanting to store somewhere. 
 
-# Gatstrap
-
-Gatsby starter for bootstrap a blog
-
-![](https://i.imgur.com/Qcd3NwR.png)
-
-
-## GatsbyJS v1
-- For v1 version of this starter, check out the [master branch](https://github.com/jaxx2104/gatsby-starter-bootstrap).
-
-## Features
-+ Single column layout
-+ Simple components: SiteNavi, SitePost, SitePage.
-+ [Twitter Bootstrap](https://github.com/twbs/bootstrap) css framework.
-
-## Installation
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatstrap https://github.com/jaxx2104/gatsby-starter-bootstrap`
-
-## Usage
-develop
-`gatsby develop`
-
-### Custom Theme
-`/src/layouts/gatsrap.css`
-
+The project started out based on [`gatstrap`](https://github.com/jaxx2104/gatsby-starter-bootstrap) from quite some time ago (and still has clear resemblence). After coming back to the project this week and having everything broken, decided I wanted to cut it down to bare bones and start nearly from scratch so I know what's going on and can fix it. I'm greatful the project got me on my feet, but now I know enough in the JS/React/Gatsby/GraphQL world that I'd rather not have any magic unless I'm to blame for it! :) 

@@ -1,9 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
-import size from 'lodash/size'
 import ReadNext from '../ReadNext'
-import './style.scss'
 
 class SitePost extends React.Component {
   more(body, path) {

@@ -1,55 +1,25 @@
 {
-  "name": "gatsby-starter-bootstrap",
-  "description": "Simple starter for Gatsby",
-  "version": "1.9.36",
-  "author": "Futoshi Iwashita <jaxx2104@gmail.com>",
+  "name": "website",
+  "description": "My personal website to store brain dumps.",
+  "version": "1.0.0",
+  "author": "Trevor Richardson <npm@trevorrichardson.me>",
   "dependencies": {
     "gatsby": "1.9.279",
     "gatsby-link": "1.6.46",
-    "gatsby-plugin-google-analytics": "1.0.31",
-    "gatsby-plugin-manifest": "1.0.27",
-    "gatsby-plugin-nprogress": "1.0.14",
-    "gatsby-plugin-offline": "1.0.18",
-    "gatsby-plugin-preact": "1.0.17",
-    "gatsby-plugin-react-helmet": "^1.0.6",
-    "gatsby-plugin-sass": "2.8.0",
-    "gatsby-plugin-sharp": "1.6.48",
     "gatsby-remark-copy-linked-files": "1.5.37",
     "gatsby-remark-images": "1.5.67",
     "gatsby-remark-prismjs": "1.2.24",
-    "gatsby-remark-responsive-iframe": "2.8.0",
-    "gatsby-remark-smartypants": "1.4.12",
     "gatsby-source-filesystem": "1.5.39",
     "gatsby-transformer-remark": "1.7.44",
-    "gatsby-transformer-sharp": "1.6.27",
     "lodash": "4.17.20",
-    "plop": "2.7.4",
-    "react-lazyload": "3.1.0",
-    "react-responsive-grid": "^0.3.4",
-    "react-tap-event-plugin": "^2.0.1",
-    "react-typography": "0.16.19"
+    "plop": "2.7.4"
   },
   "devDependencies": {
-    "animate.css": "4.1.1",
     "babel-eslint": "10.1.0",
-    "bootstrap": "4.5.3",
-    "devicon": "git+https://github.com/konpa/devicon.git#v2.7",
     "eslint": "4.19.1",
-    "eslint-config-prettier": "6.15.0",
-    "eslint-plugin-prettier": "2.7.0",
     "eslint-plugin-react": "7.21.5",
-    "font-awesome": "^4.7.0",
     "gh-pages": "3.1.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^4.2.1",
-    "moment": "2.29.1",
-    "normalize.css": "^8.0.1",
-    "prettier": "1.19.1",
-    "striptags": "2.2.1",
-    "textlint": "^8.2.1",
-    "textlint-rule-preset-ja-spacing": "2.0.2",
-    "textlint-rule-preset-japanese": "^5.0.0",
-    "wowjs": "^1.1.3"
+    "moment": "2.29.1"
   },
   "keywords": [
     "gatsby",
@@ -57,38 +27,11 @@
     "starter"
   ],
   "license": "MIT",
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.css": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.scss": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.md": [
-      "npm run lint:textfix",
-      "git add"
-    ]
-  },
-  "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.+(js|jsx|json|css|scss)\"",
+    "dev": "gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
-    "lint:text": "textlint src/pages/**/index.md",
-    "lint:textfix": "textlint --fix src/pages/**/index.md",
-    "precommit": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "plop --plopfile ./generators/plopfile.js"
   }
