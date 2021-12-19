@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-      - name: Run gatsby build and deploy with gh-pages
-        run: npm run deploy
-
+    - uses: actions/checkout@v2
+    - run: nvm install
+    - run: npm install
+    - run: npm run deploy
