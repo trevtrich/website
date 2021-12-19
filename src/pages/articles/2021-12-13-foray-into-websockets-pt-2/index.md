@@ -11,9 +11,9 @@ description: "Deeper dive into what pt 1 was actually doing when it worked."
 So, [part 1](/articles/foray-into-websockets) actually went much better than I would've expected. I had no idea the raw web apis were so friendly at least to get something basic working. Essentially once you have a connection you're off to the races. Following that up with a pub/sub topic subscription and firing off new notifications whenever they came was equally straightforward. Now, after I had that success I came away with some questions (which is always the big win of hacking on something new).
 
 1. What is this [upgrade thing](https://developer.mozilla.org/en-US/docs/Web/HTTP/Protocol_upgrade_mechanism) some docs reference as the "Web" in websockets (can't seem to find direct reference), but the [MDN docs do reference this upgrade](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications#examples) path as the way a browser creates them.
-2. What does it look like to turn this single connection into production worthy? 
-  a. What happenes when the network drops? 
-3. How do you manage lots of persistent connections? 
+2. What does it look like to turn this single connection into production worthy?
+  a. What happenes when the network drops?
+3. How do you manage lots of persistent connections?
   a. Any established best-practice or "websocket servers" that manage all this for you?
 4. Where in the flow do we establish and link who is who for a new connection attempt to the server?
 
@@ -21,7 +21,7 @@ So, [part 1](/articles/foray-into-websockets) actually went much better than I w
 
 Direct quote from [the MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications#examples):
 
-> Establishing a WebSocket relies on the HTTP Upgrade mechanism, so the request for the protocol upgrade is implicit when we address the web server as ws://www.example.com or wss://www.example.com. 
+> Establishing a WebSocket relies on the HTTP Upgrade mechanism, so the request for the protocol upgrade is implicit when we address the web server as ws://www.example.com or wss://www.example.com.
 
 I've seen elsewhere this is the "web" in websockets. Primarily the fact that the initial request is regular http but is sent with the `upgrade` protocol which indicates to the server it would like to upgrade to a websocket connection.
 
@@ -31,7 +31,7 @@ Ew, some interesting info from the mdn [Protocol Upgrade Mechanism](https://deve
 >
 > Note also that HTTP/2 explicitly disallows the use of this mechanism; it is specific to HTTP/1.1.
 
-So I have a little digging to do to verify what happens when the initial connection is made over http/2. 
+So I have a little digging to do to verify what happens when the initial connection is made over http/2.
 
 An example upgrade request from the same MDN upgrade docs:
 
@@ -50,6 +50,10 @@ and a [specific section for the upgrade to websocket protocal](https://developer
 - wss connection
 - token expiration if the socket is open for more than token life span
 - does logging / apm agent actually monitor websockets? appears some don't.
+
+Recommendations
+
+- Base autoscaling on number of open connections because things like CPU will often be misleading as open connections will often remain idle.
 
 ## Other links I used in building this.. that probably mean I had things to learn or lock into memory and needed to come back to.
 
