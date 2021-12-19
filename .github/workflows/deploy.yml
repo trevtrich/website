@@ -1,0 +1,14 @@
+name: deploy
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Run gatsby build and deploy with gh-pages
+        run: npm run deploy
+
