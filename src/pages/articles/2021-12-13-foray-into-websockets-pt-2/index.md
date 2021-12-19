@@ -54,6 +54,11 @@ and a [specific section for the upgrade to websocket protocal](https://developer
 Recommendations
 
 - Base autoscaling on number of open connections because things like CPU will often be misleading as open connections will often remain idle.
+- Limitations to be aware of at the instance level that get to the core of linux itself. Things like allowed connections for a given IP and port.
+- Create ping-pong to make sure the connection is good from both ends. Example code from the article was 30s between heartbeat checks, but not sure if that was meant to be followed as best practice or not.
+    - This allows the server side to close up the connections so they don't get saturated and waste potential connections for a given machine.
+- Make sure to add auto-reconnect whenever a client detects that the socket has been killed from the server side for whatever reason.
+- Interesting point brought up about manually refreshing the connection if it's been open for a long time. Assumes that at the beginning of a connection you'll often do some additional work that may be stale after the connection has been open for some time. I feel like I'd do this through some other means like an "initialize" upon first connection, then maybe synchronize later instead of having this be a side-effect of the re-connection. This could be useful for token refresh, though, if that's how the initial connection was authorized.
 
 ## Other links I used in building this.. that probably mean I had things to learn or lock into memory and needed to come back to.
 
@@ -71,3 +76,4 @@ Recommendations
 
 ### Production
 - https://medium.com/voodoo-engineering/websockets-on-production-with-node-js-bdc82d07bb9f
+- https://blog.jayway.com/2015/04/13/600k-concurrent-websocket-connections-on-aws-using-node-js/
