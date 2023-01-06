@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "author": "Trevor Richardson <npm@trevorrichardson.me>",
   "dependencies": {
-    "gatsby": "1.9.279",
+    "gatsby": "5.3.3",
     "gatsby-link": "1.6.46",
     "gatsby-remark-copy-linked-files": "1.5.37",
     "gatsby-remark-images": "1.5.67",
     "gatsby-remark-prismjs": "1.2.24",
-    "gatsby-source-filesystem": "1.5.39",
+    "gatsby-source-filesystem": "5.3.1",
     "gatsby-transformer-remark": "1.7.44",
     "lodash": "4.17.20",
     "plop": "2.7.4"
